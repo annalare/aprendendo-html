@@ -1,12 +1,19 @@
 body {
-  background-color: rgb(77, 48, 105);
+  background-color: rgb(218, 191, 209);
 }
-h2 {
-  color: aquamarine;
+a {
+  color: rgb(202, 24, 149);
 }
 #preto {
   color: black;
 }
 #rosa {
   color: pink;
+}
+
+p {
+  color: rgb(51, 8, 92);
+}
+h1 {
+  color: darkmagenta;
 }
