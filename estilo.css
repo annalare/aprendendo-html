@@ -1,29 +1,86 @@
-body {
-  background-color: rgb(218, 191, 209);
-}
-a {
-  color: rgb(202, 24, 149);
-}
-#preto {
-  color: black;
-}
-#rosa {
-  color: pink;
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-p {
-  color: rgb(51, 8, 92);
+body {
+  background-image: url(./img/pexels-raj-deepak-4509658.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-h1 {
-  color: darkmagenta;
-}
+
 h2 {
-  color: darkorchid;
+  color: beige;
 }
-li,
-dd {
-  color: deeppink;
+
+#container-logo {
+  display: flex;
+  flex-direction: column;
 }
-dt {
-  color: indigo;
+#logo {
+  background-color: rgb(38, 22, 43);
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo h1 {
+  font-size: 50px;
+  color: beige;
+}
+#navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 0 auto;
+}
+
+#barra {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+#barra li {
+  padding: 12px 48px;
+}
+.a-nav {
+  text-decoration: none;
+  color: #fdfdfd;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.lista {
+  list-style: none;
+}
+h2,
+h3,
+a,
+article {
+  color: beige;
+}
+.chuva {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#texto {
+  justify-content: center;
+  font-size: 18px;
+  align-items: center;
+  margin-bottom: 103px;
+  width: 550px;
+  padding: 10px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+  background-color: rgb(38, 22, 43);
 }
