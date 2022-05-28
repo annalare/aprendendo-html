@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  background: linear-gradient(to right, #df0d0d, #6b0505);
+}
+.cabecalho {
+  height: 7em;
+  background-color: #660303;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cabecalho img {
+  max-width: 150px;
+  max-height: 100px;
+  background-color: #660303;
+}
+#navbar {
+  display: flex;
+  justify-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  background: -webkit-linear-gradient(to right, #0425b8, #e4e5e6);
+  background: linear-gradient(to right, #0425b8, #e4e5e6);
+}
+#navbar ul {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#navbar ul li {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 600;
+  color: black;
+  font-size: 24px;
+  font-style: none;
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+.bloco-post {
+  display: flex;
+  justify-content: center;
+}
+.texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  padding: 48px;
+  margin: 0 auto;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Indie Flower", cursive;
+  font-size: 55px;
+  padding-top: 15px;
+}
+.sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 500;
+  font-size: 23px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+}

@@ -1,60 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-
-  <title> My page </title>
-  <meta charset="UTF-8" />
-  <meta name="description" content="Texto descritivo da página web" />
-  <meta name="autor" content="Gama Academy" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="estilo.css" />
-
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Gama Academy">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <title>Spider Man</title>
 
 </head>
 
 <body>
-  <header id="container-logo">
-
-    <div id="logo">
-      <h1>Galaxy</h1>
-    </div>
+  <!-- Cabeçalho-->
+  <header>
+    <div class="cabecalho"> <img src="./img/pngwing.com.png" alt="logo-aranha"> </div>
     <nav id="navbar">
-      <ul id="barra">
-        <li> <a href="#" class="a-nav">Galáxias</a></li>
-        <li> <a href="#" class="a-nav">Estrelas</a></li>
-        <li> <a href="#" class="a-nav">Planetas</a></li>
+      <ul>
+        <li><a href="#">Homecoming</li></a>
+
+
+        <li><a href="#"> Far From Home</li></a>
+
+
+        <li> <a href="#"> No Way Home </li></a>
       </ul>
+
     </nav>
 
   </header>
-
+  <!--Fim do Cabeçalho-->
+  <!--Conteudo Principal-->
   <main>
-    <div class="chuva">
-      <h2>Chuva de Meteoros </h2>
-    </div>
-    <div class="chuva">
-      <h3> Próximas datas</h3>
-    </div>
+    <h1 class="titulo"> Spider-Man </h1>
+    <section class="aranha">
+      <div class="texto">
 
-    <ul class="chuva">
-      <li> <a class="lista">Aquarideas 22/05</a></li>
-      <li> <a class="lista">Geminideos 22/06</a></li>
-      <li> <a class="lista">Perseidas 22/07</a></li>
-    </ul>
-    <section>
-      <h2> Milkway Relax - Imagens da Nasa para relaxar </h2>
-      <div id="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/gosjiD288Jk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div id="texto">
-        <article>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo minus recusandae saepe veritatis error, dolore soluta blanditiis! Eos excepturi, officiis, doloribus odio a animi explicabo dolor dolore consequatur esse obcaecati accusantium optio mollitia placeat repellat earum. Tenetur quos reiciendis eos nihil tempora corrupti, veritatis numquam delectus cupiditate exercitationem culpa odit laudantium sed? Harum totam aperiam animi praesentium quaerat cumque quis tenetur similique quod cum vitae non corporis nam dolores, distinctio at assumenda quibusdam mollitia molestiae necessitatibus, libero impedit, laboriosam earum?
-        </article>
+        <p class="sobre">O Homem Aranha (Spider-Man), o alter ego de Peter Parker, é um super-herói que aparece nas revistas em quadrinhos publicadas pela Marvel Comics. Criado pelo escritor/editor Stan Lee e pelo escritor/artista Steve Ditko, o Homem-Aranha apareceu pela primeira vez na Amazing Fantasy #15 (01 de agosto de 1962), durante a Era de Prata dos Quadrinhos. </p>
       </div>
 
+      <h2> Filmes </h2>
+      <div class="bloco-post" id="div1">
+        <img src="./img/2f8fc1a86c3b081c76d8d89c68dcdb40.jpg" alt="Homecoming" class="img-post" />
+        <h3> <strong> Homecoming </strong></h3>
+      </div>
+
+      <div class="bloco-post" id="div2">
+        <img src="./img/2.jpg" alt="Far From Home" class="img-post" />
+        <h3> <strong> Far From Home </strong></h3>
+      </div>
+
+      <div class="bloco-post" id="div3">
+        <img src="./img/3.jpg" alt="No Way Home" class="img-post" />
+        <h3> <strong> No Way Home </strong></h3>
+      </div>
     </section>
+
+
 
   </main>
   <footer>
